@@ -498,7 +498,7 @@ body {
   margin: 0;
 }
 .features-ses__wrap {
-  background-image: url(/images/Hero/img.jpg);
+  background-image: url(images/Hero/img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
