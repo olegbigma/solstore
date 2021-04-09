@@ -39,3 +39,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 new WOW({
   mobile: false,
 }).init();
+
+$(".single-slider").slick({
+  prevArrow:
+    '<button class="slick-prev" aria-label="Previous" type="button"><img src="images/chevron-left.svg"/></button>',
+  nextArrow:
+    '<button class="slick-next" aria-label="Next" type="button"><img src="images/chevron-right.svg"/></button>',
+});
