@@ -523,13 +523,25 @@
           >
             <div class="mb-16">
               <label class="main-input__label" for="name">Ваше имя</label>
-              <input class="main-input" name="name" id="name" type="text" />
+              <input
+                class="main-input"
+                name="name"
+                required
+                id="name"
+                type="text"
+              />
             </div>
             <div class="mb-16">
               <label class="main-input__label" for="tel"
                 >Ваш номер телефона</label
               >
-              <input class="main-input" name="phone" id="tel" type="tel" />
+              <input
+                class="main-input"
+                name="phone"
+                required
+                id="tel"
+                type="tel"
+              />
             </div>
             <div class="mb-16">
               <label class="main-input__label" for="message"
@@ -541,7 +553,10 @@
                 id="message"
               ></textarea>
             </div>
-            <button class="main-btn" type="submit">Перезвоните мне</button>
+            <button class="main-btn" type="submit" value="Message for form">
+              Перезвоните мне
+            </button>
+            <input type="hidden" name="act" value="order" />
           </form>
         </div>
         <div class="divider"></div>
